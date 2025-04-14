@@ -43,7 +43,7 @@ function App() {
         <ul>
           {camp.map((c) => (
             <li key={c.id}>
-              <strong>{c.nombre}</strong>en {c.plataforma} - {c.fecha} 
+              <strong>{c.nombre}</strong> en {c.plataforma} - {c.fecha} 
             </li>
           ))}  
         </ul>
